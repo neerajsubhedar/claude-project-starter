@@ -1,0 +1,45 @@
+# ── Always excluded ──────────────────────────────────────────────────────────
+
+# Secrets / environment
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── Aggressive — uncomment if applicable ─────────────────────────────────────
+# Lock files (large, rarely useful for Claude to read)
+# package-lock.json
+# yarn.lock
+# poetry.lock
+# Pipfile.lock
+
+# Generated / compiled types
+# **/*.generated.ts
+# **/*.generated.js
+# **/*.pb.go
+# **/*_pb2.py
+
+# Test fixtures and snapshots (can be large)
+# tests/fixtures/
+# **/__snapshots__/
+
+# Docs / static assets (if not relevant to coding tasks)
+# docs/
+# public/
+# static/

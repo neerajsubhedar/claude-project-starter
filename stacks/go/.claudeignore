@@ -1,0 +1,11 @@
+# Go
+vendor/
+bin/
+*.test
+*.out
+coverage.html
+
+# ── Aggressive — uncomment if applicable ─────────────────────────────────────
+# **/*_pb.go
+# **/*_pb2.go
+# **/*.pb.go

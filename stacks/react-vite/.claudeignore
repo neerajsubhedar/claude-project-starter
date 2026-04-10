@@ -1,0 +1,12 @@
+# Node / build
+node_modules/
+dist/
+build/
+.vite/
+.next/
+out/
+
+# ── Aggressive — uncomment if applicable ─────────────────────────────────────
+# package-lock.json
+# yarn.lock
+# **/*.generated.ts

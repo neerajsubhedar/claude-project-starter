@@ -1,0 +1,19 @@
+# Python
+venv/
+.venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+.coverage
+
+# Alembic compiled cache (not source)
+alembic/versions/__pycache__/
+
+# ── Aggressive — uncomment if applicable ─────────────────────────────────────
+# Migration history (if you never need Claude to read past migrations)
+# alembic/versions/

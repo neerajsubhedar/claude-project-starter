@@ -1,0 +1,9 @@
+# Node / build
+node_modules/
+dist/
+build/
+.cache/
+
+# ── Aggressive — uncomment if applicable ─────────────────────────────────────
+# package-lock.json
+# yarn.lock
